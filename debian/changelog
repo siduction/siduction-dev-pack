@@ -1,5 +1,17 @@
+siduction-dev-pack (0.3) UNRELEASED; urgency=low
+
+  * some typos fixed 
+
+ -- Alf Gaida <agaida@siduction.org>  Sun, 17 Feb 2013 18:50:46 +0100
+
+siduction-dev-pack (0.2) unstable; urgency=low
+
+  * added some packages 
+
+ -- Alf Gaida <agaida@siduction.org>  Sun, 17 Feb 2013 18:36:25 +0100
+
 siduction-dev-pack (0.1) unstable; urgency=low
 
   * initial release, bundling just a bunch of packages
 
- -- Alf Gaida <agaida@siduction.org>  Mon, 12 Mar 2012 18:32:05 +0100
+ -- Alf Gaida <agaida@siduction.org>  Sun, 17 Feb 2013 18:36:00 +0100
