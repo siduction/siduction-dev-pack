@@ -1,0 +1,5 @@
+siduction-dev-pack (0.1) unstable; urgency=low
+
+  * initial release, bundling just a bunch of packages
+
+ -- Alf Gaida <agaida@siduction.org>  Mon, 12 Mar 2012 18:32:05 +0100

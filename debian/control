@@ -1,0 +1,30 @@
+Source: siduction-dev-pack
+Section: devel
+Priority: extra
+Maintainer: Alf Gaida <agaida@siduction.org>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.4
+Homepage: http://
+Vcs-Git: git://git.
+Vcs-Browser: http://git
+
+Package: siduction-dev-pack
+Architecture: all
+Depends: ${misc:Depends},
+ aptitude,
+ bzr,
+ devscripts,
+ dput,
+ git,
+ git-svn,
+ git-gui,
+ gitk,
+ git-man,
+ lintian,
+ pbuilder,
+ pbuilder-scripts,
+ quilt,
+ subversion,
+ subversion-tools,
+Description: Set of packages for siduction devs
+ Some useful description should be added here
