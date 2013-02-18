@@ -1,8 +1,14 @@
-siduction-dev-pack (0.3) UNRELEASED; urgency=low
+siduction-dev-pack (0.4) unstable; urgency=low
+
+  * cmake added
+
+ -- Alf Gaida <agaida@siduction.org>  Mon, 18 Feb 2013 17:28:22 +0100
+
+siduction-dev-pack (0.3) unstable; urgency=low
 
   * some typos fixed 
 
- -- Alf Gaida <agaida@siduction.org>  Sun, 17 Feb 2013 18:50:46 +0100
+ -- Alf Gaida <agaida@siduction.org>  Sun, 17 Feb 2013 18:54:56 +0100
 
 siduction-dev-pack (0.2) unstable; urgency=low
 
