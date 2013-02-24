@@ -1,3 +1,9 @@
+siduction-dev-pack (0.5) unstable; urgency=low
+
+  * dh-autoreconf and intltool added 
+
+ -- Alf Gaida <agaida@siduction.org>  Sun, 24 Feb 2013 02:44:31 +0100
+
 siduction-dev-pack (0.4) unstable; urgency=low
 
   * cmake added
