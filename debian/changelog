@@ -1,3 +1,9 @@
+siduction-dev-pack (0.6) unstable; urgency=low
+
+  * libfile-fcntllock-perl added 
+
+ -- Alf Gaida <agaida@siduction.org>  Tue, 12 Mar 2013 00:06:26 +0100
+
 siduction-dev-pack (0.5) unstable; urgency=low
 
   * dh-autoreconf and intltool added 
