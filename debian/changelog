@@ -1,3 +1,11 @@
+siduction-dev-pack (0.7) unstable; urgency=low
+
+  * spice-client added
+  * automoc added
+  * autopoint added   
+
+ -- Alf Gaida <agaida@siduction.org>  Sat, 15 Jun 2013 19:53:16 +0200
+
 siduction-dev-pack (0.6) unstable; urgency=low
 
   * libfile-fcntllock-perl added 
