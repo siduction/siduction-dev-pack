@@ -29,7 +29,6 @@ Depends: ${misc:Depends},
  dput,
  fakeroot,
  git,
- git-svn,
  git-gui,
  gitk,
  git-man,
@@ -58,8 +57,9 @@ Depends: ${misc:Depends},
  psutils,
  quilt,
  spice-client,
- subversion,
- subversion-tools,
  wdiff,
+# git-svn,
+# subversion
+# subversion-tools 
 Description: Set of packages for siduction devs
  Some useful description should be added here

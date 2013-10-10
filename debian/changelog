@@ -1,3 +1,15 @@
+siduction-dev-pack (0.9) unstable; urgency=low
+
+  * rmbuildcrap skeleton added 
+
+ -- Alf Gaida <agaida@siduction.org>  Fri, 11 Oct 2013 00:53:35 +0200
+
+siduction-dev-pack (0.8) unstable; urgency=low
+
+  * svn-related commented out 
+
+ -- Alf Gaida <agaida@siduction.org>  Fri, 30 Aug 2013 22:56:24 +0200
+
 siduction-dev-pack (0.7) unstable; urgency=low
 
   * spice-client added
