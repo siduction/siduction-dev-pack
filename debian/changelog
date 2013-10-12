@@ -1,3 +1,15 @@
+siduction-dev-pack (0.11) unstable; urgency=low
+
+  * typo fixed 
+
+ -- Alf Gaida <agaida@siduction.org>  Sun, 13 Oct 2013 01:02:18 +0200
+
+siduction-dev-pack (0.10) unstable; urgency=low
+
+  * rmbuildcrap refinement 
+
+ -- Alf Gaida <agaida@siduction.org>  Sun, 13 Oct 2013 00:49:50 +0200
+
 siduction-dev-pack (0.9) unstable; urgency=low
 
   * rmbuildcrap skeleton added 

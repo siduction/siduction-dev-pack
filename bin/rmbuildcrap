@@ -1,22 +1,28 @@
 #!/bin/bash
 
-if [ -f */debian/changelog ]; then
-    SOURCE=$(dpkg-parsechangelog -l$(ls */debian/changelog) | sed -n '/Source:/P' | sed 's/Source: //1')
-    VERSION=$(dpkg-parsechangelog -l$(ls */debian/changelog) | sed -n '/Version:/P' | sed 's/Version: //1')
-else
-    echo ""
-    echo "No */debian/changelog found, exit now!"
-    exit 1
+CHANGELOG=$(ls */debian/changelog)
+
+if [ "x$CHANGELOG" != "x" ]; then
+    for i in $CHANGELOG; do
+        echo ""
+        echo $i
+        echo "-----------------------------------"
+        echo ""
+
+        SOURCE=$(dpkg-parsechangelog -l${i} | sed -n '/Source:/P' | sed 's/Source: //1')
+        VERSION=$(dpkg-parsechangelog -l${i} | sed -n '/Version:/P' | sed 's/Version: //1')
+
+        echo ""
+        echo "Source:  $SOURCE"
+        echo "Version: $VERSION"
+        echo "----------------------------"
+        echo ""
+
+        rm -fv ${SOURCE}_${VERSION}_*.build
+        rm -fv ${SOURCE}_${VERSION}_*.changes
+        rm -fv *.deb
+        rm -fv ${SOURCE}_${VERSION}*.dsc
+        rm -fv ${SOURCE}_${VERSION}.tar.*
+        rm -fv ${SOURCE}_${VERSION}*.upload
+    done
 fi
-
-echo ""
-echo "Source:  $SOURCE"
-echo "Version: $VERSION"
-echo "----------------------------"
-echo ""
-
-rm -fv ${SOURCE}_${VERSION}_*.build
-rm -fv ${SOURCE}_${VERSION}_*.changes
-rm -fv *.deb
-rm -fv ${SOURCE}_${VERSION}*.dsc
-rm -fv ${SOURCE}_${VERSION}.tar.*
