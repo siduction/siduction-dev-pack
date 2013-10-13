@@ -20,7 +20,7 @@ if [ "x$CHANGELOG" != "x" ]; then
 
         rm -fv ${SOURCE}_${VERSION}_*.build
         rm -fv ${SOURCE}_${VERSION}_*.changes
-        rm -fv *.deb
+        rm -fv *${VERSION}*.deb
         rm -fv ${SOURCE}_${VERSION}*.dsc
         rm -fv ${SOURCE}_${VERSION}.tar.*
         rm -fv ${SOURCE}_${VERSION}*.upload
