@@ -1,3 +1,9 @@
+siduction-dev-pack (0.12) unstable; urgency=low
+
+  * libcrypt-ssleay-perl added, for https support in bzr 
+
+ -- Alf Gaida <agaida@siduction.org>  Sun, 13 Oct 2013 11:53:39 +0200
+
 siduction-dev-pack (0.11) unstable; urgency=low
 
   * typo fixed 
